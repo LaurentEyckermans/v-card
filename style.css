@@ -25,12 +25,12 @@ header{
 }
 
 .logo{
-    position: absolute;
+   position:relative;
     width: 25vh; 
 }
 
 .whiteline1{
-    position: absolute;
+  
     background-color: white;
     height: 1px;
     width: 120px;
@@ -41,20 +41,20 @@ header{
 
 
 .whiteline2{
-    position: absolute;
+  
     background-color: white;
     height: 1px;
     width: 200px;
     z-index: 20;
     left: 54px;
+    margin-top: 20px;
    
 }
 
 .logoImg{
     margin-left: 30px;
-    max-width: 130vw;
-    height: 159px;
-    object-fit: scale-down;
+    height: 200px;
+    width: 240px;
     margin-top: -56px;
 }
 
@@ -67,7 +67,7 @@ header{
 }
 
 .blueboard{
-    position: absolute;
+   
     z-index: -10;
     background-color: blue;
     background: linear-gradient(0deg, rgba(236,236,236,1) 0%, rgba(79,0,247,1) 0%, rgba(84,0,246,1) 100%, rgba(206,195,244,1) 100%);
@@ -88,7 +88,8 @@ header{
     height: 80vh;
     display:flex;
     vertical-align:80px;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .contain1{
@@ -111,12 +112,10 @@ header{
 
 
 .photo{
-    display: absolute;
     height: 100%;
     max-height: inherit;
-    box-shadow: -webkit-box-shadow: -2px 5px 32px 3px rgba(0,0,0,0.49); 
+    -webkit-box-shadow: -2px 5px 32px 3px rgba(0,0,0,0.49); 
     box-shadow: -2px 5px 32px 3px rgba(0,0,0,0.33);
-    
 }
 
 i{
