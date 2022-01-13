@@ -1,4 +1,4 @@
 ﻿# personal Page
 # v-card
 
-<img src= « assets/example.png» >
+<img src= « asset/example.png» >
